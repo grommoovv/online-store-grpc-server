@@ -1,0 +1,13 @@
+env: "local" # dev , prod
+
+grpc:
+  port: 55555
+  timeout: 5s
+
+psql:
+  username: 'postgres'
+  password: 'root' # Перенести в .env
+  host: 'localhost' # postgres (Docker)
+  port: '5432'
+  dbname: 'online-store'
+  sslmode: 'disable'
